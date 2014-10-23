@@ -6,6 +6,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/pixel.gif', function(req, res) {
 	console.log("======================= HELLO!! Got request for pixel.gif! ======================= \n\n");
+	console.log("Fired at : " + new Date() + "\n\n");
 	console.log("\n host         : ", res.req.headers['host'], "\n");
 	console.log("\n user-agent   : ", res.req.headers['user-agent'], "\n");
 	console.log("\n cookie       : ", res.req.headers['cookie'], "\n");
@@ -24,6 +25,7 @@ router.get('/pixel.gif', function(req, res) {
 
 router.get('/pixel.js', function(req, res) {
 	console.log("======================= HELLO!! Got request for pixel.js! ======================= \n\n");
+	console.log("Fired at : " + new Date() + "\n\n");
 	console.log("\n host         : ", res.req.headers['host'], "\n");
 	console.log("\n user-agent   : ", res.req.headers['user-agent'], "\n");
 	console.log("\n cookie       : ", res.req.headers['cookie'], "\n");
