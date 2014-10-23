@@ -1,0 +1,12 @@
+.idea
+.sass-cache
+.vagrant
+.chef
+.package.json
+
+#npm
+node_modules
+npm-debug.log
+
+tmp
+log
