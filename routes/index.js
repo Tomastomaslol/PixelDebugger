@@ -20,7 +20,7 @@ router.get('/pixel.gif', function(req, res) {
 	 
 	res.writeHead(200, {'Content-Type': 'image/gif' });
 	res.end(gif, 'binary');
-	console.log("\n\n==================================== BYE!! ======================================= \n\n");
+	console.log("\n\n==================================== BYE! ======================================= \n\n");
 });
 
 router.get('/pixel.js', function(req, res) {
@@ -35,7 +35,7 @@ router.get('/pixel.js', function(req, res) {
 	 
 	res.writeHead(200, {'Content-Type': 'application/x-javascript' });
 	res.end(js);
-	console.log("\n\n==================================== BYE!! ======================================= \n\n");
+	console.log("\n\n==================================== BYE! ======================================= \n\n");
 });
 module.exports = router;
 
